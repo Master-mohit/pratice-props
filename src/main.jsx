@@ -4,10 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Context from '../contextStore/Context.jsx'
 
+
 createRoot(document.getElementById('root')).render(
-  <Context>
+
   <StrictMode>
+   <Context>
     <App />
+   </Context>
   </StrictMode>,
-  </Context>
+
 )
